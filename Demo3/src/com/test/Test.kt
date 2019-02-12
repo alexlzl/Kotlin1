@@ -1,7 +1,7 @@
 package com.test
 
-val student:Student?=null
-var studentr:Student?=null
+val student:Student1?=null
+var studentr:Student1?=null
 fun main(args: Array<String>) {
 //    print(test1(3, 2))
 //    print(test2(3, 2))
@@ -44,7 +44,7 @@ fun printProduct(arg1: String, arg2: String) {
     if(x!=null&&y!=null){
         println(x * y)
     }
-    var student1:Student?=null
+    var student1:Student1?=null
     if(student1!=null){
         print(student1.name)
     }
