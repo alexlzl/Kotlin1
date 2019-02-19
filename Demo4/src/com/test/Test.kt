@@ -6,7 +6,8 @@ fun main(args: Array<String>) {
 //    test3()
 //    test4()
 //    test5()
-    test6()
+//    test6()
+    test7()
 }
 
 /**
@@ -66,4 +67,15 @@ fun test6() {
     |(Benjamin Franklin)
     """.trimMargin(">")
     println(text)
+}
+
+/**
+ * $9.99
+ */
+fun test7() {
+    val p=100
+    val price = """
+$p{'$'}
+"""
+    println(price)
 }
