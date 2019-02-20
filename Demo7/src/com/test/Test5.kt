@@ -44,9 +44,10 @@ class Hello1 {
         hello(arg0)
     }
 
-    fun main() {
-        val h = Hello1()
-        people("Android", h::say) // 使用双冒号引用其他方法
-    }
 
+
+}
+fun main(args:Array<String>) {
+    val h = Hello1()
+    Hello1(). people("Android", h::say) // 使用双冒号引用其他方法
 }
