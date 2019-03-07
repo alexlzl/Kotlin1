@@ -23,7 +23,7 @@ fun test(): () -> Unit {
 }
 
 /**
- * 4,5,6
+ * 输出===========4,5,6
  */
 fun main(args: Array<String>) {
     var t = test()
