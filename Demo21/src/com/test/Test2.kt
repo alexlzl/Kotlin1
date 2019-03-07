@@ -10,8 +10,8 @@ package com.test
 fun test(): () -> Unit {
     var a = 3 //状态
     return fun() {
-        a++;
-        println(a);
+        a++
+        println(a)
     }
 }
 
