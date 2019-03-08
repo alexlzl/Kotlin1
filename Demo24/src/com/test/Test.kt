@@ -7,7 +7,7 @@ package com.test
  * 使用return@higherOrderFunction的方式返回得到的结果正确。
  * 不过kotlin也有另一种方式来限制在lambda中直接return，那就是使用 noinline 或 crossinline 。
  */
-inline fun higherOrderFunction(aLambda: () -> Unit) {
+inline fun higherOrderFunction( aLambda: () -> Unit) {
     aLambda()
     println("after invoke lambda") // 1
 }
